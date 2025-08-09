@@ -40,13 +40,14 @@ A Spring Boot application for managing accounts and transferring funds between t
 
 ## Swagger UI
 
-Access API documentation at: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+Once application is running, you can access API documentation at: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 ## Request & Response Flow
 
 - Client sends HTTP request to REST endpoint.
 - Controller validates input and delegates to service layer.
 - Service performs business logic, updates accounts, and triggers notifications.
+- Added sample postman collection for testing purpose.
 
 ## Following Production-Ready Enhancements can be done w.r.t this service
 
